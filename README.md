@@ -5,10 +5,14 @@ A terminal-based Spotify controller built with Go and Flask.
 Spotuify combines a Flask backend with a Go TUI frontend to create a lightweight Spotify client directly inside the terminal.
 The project uses the Spotify Web API for authentication and playback control, while the frontend is being built using Bubble Tea, Bubbles, and Lip Gloss.
 
+
+![User Interface](https://github.com/kzarre/Spotuify/blob/main/screenshot.png)
+
+
 > Currently implemented features:
 >
 > * Spotify OAuth authentication
-> * Play / Pause control
+> * Playback control
 > * Shuffle toggle
 > * Current song information
 > * Modular Flask backend architecture
