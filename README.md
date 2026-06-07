@@ -6,7 +6,7 @@ Spotuify combines a Flask backend with a Go TUI frontend to create a lightweight
 The project uses the Spotify Web API for authentication and playback control, while the frontend is being built using Bubble Tea, Bubbles, and Lip Gloss.
 
 
-![User Interface](https://github.com/kzarre/Spotuify/blob/main/screenshot.png)
+![User Interface](https://github.com/kzarre/Spotuify/blob/main/Screenshot.png)
 
 
 > Currently implemented features:
