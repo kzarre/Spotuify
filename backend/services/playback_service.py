@@ -44,3 +44,12 @@ class PlaybackService:
     
     def prev_song(self):
         return self.player_api.prev_song()
+
+    def set_shuffle(self, state):
+        return self.player_api.set_shuffle(state)
+    
+    def set_seek(self, state):
+        return self.player_api.set_seek(state)
+    
+    def set_repeat(self, state):
+        return self.player_api.set_repeat(state)

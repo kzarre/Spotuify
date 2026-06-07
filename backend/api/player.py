@@ -17,7 +17,7 @@ class PlayerAPI(SpotifyClient):
     def set_seek(self, ms):
         return self._post(f"/me/player/seek?position_ms={ms}")
         
-    def set_suffle(self, state):
+    def set_shuffle(self, state):
         return self._put(f"/me/player/shuffle?state={state}")
 
     def set_repeat(self, state):
